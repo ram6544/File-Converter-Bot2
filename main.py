@@ -22,7 +22,7 @@ import tictactoe
 
 
 # env
-bot_token = os.environ.get("TOKEN", "8129165340:AAFsjLQSnq0RkzSze3xOo2De1KXMPBFzHzY") 
+bot_token = os.environ.get("TOKEN", "8421556402:AAGQlDSXtV06qiyEIPyxHd44_CgY5CCnuqU") 
 api_hash = os.environ.get("HASH", "e4acef545ba34ee3fa5c511b38644647") 
 api_id = os.environ.get("ID", "21834860")
 
@@ -1436,4 +1436,5 @@ def text(client: pyrogram.client.Client, message: pyrogram.types.messages_and_me
 #apprun
 print("Bot Started")
 app.run()
+
 
